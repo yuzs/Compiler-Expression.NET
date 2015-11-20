@@ -8,7 +8,7 @@ layout: post
 		<title>Your SEO optimized title</title>
 	</head>
 	<body>
-		Incoming soon...
+		Incoming soon...6
 	</body>
 </html>
 <script>
