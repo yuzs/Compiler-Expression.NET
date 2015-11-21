@@ -53,24 +53,12 @@ layout: post
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div class="card">
-							<div class="card-block card-code">
-{% highlight csharp %}
-// From simple expression...
-int result = Eval.Execute<int>("X + Y", new { X = 1, Y = 2})
-
-// To complex code.
-int result = Eval.Execute<int>(@"
-	var list = new List<int>() { 1..100 };
-	var filter = list.Where(x => x < 3);
-	return result.Sum(x => x);");
-	
-// Support full C# Syntax including:
-// - Anonymous Type
-// - Extension Methods
-// - Generic Type
-{% endhighlight %}	
-							</div>
+						<div class="card who-use">
+							<h3>Who use this?:</h3>
+							<ul>
+								<li><a href="https://github.com/zzzprojects/Eval-Expression.NET" target="_blank">Eval Expression.NET</a></li>
+								<li><a href="https://github.com/zzzprojects/Eval-SQL.NET" target="_blank">Eval SQL.NET</a></li>
+							</ul>							
 						</div>
 					</div>
 				</div>
@@ -90,7 +78,7 @@ int result = Eval.Execute<int>(@"
 						<h2>Eval Expression.NET</h2>
 						<hr class="m-y-md" />
 						<div class="block-code">
-							<p>Evaluate, Compile and Execute C# code and expression at runtime.</p>
+							<p>Evaluate, Compile and Execute C# code and expression at runtime.<br /><br /></p>
 <h3>From simple C# expression...</h3>
 {% highlight csharp %}
 int result = Eval.Execute<int>("X + Y", new { X = 1, Y = 2});
@@ -104,7 +92,7 @@ int result = Eval.Execute<int>(@"
     return result.Sum(x => x);");
 {% endhighlight %}
 						</div>
-						<div class="text-center"><a class="btn btn-primary btn-lg" href="https://github.com/zzzprojects/Eval-Expression.NET" role="button">Learn More&nbsp;<i class="fa fa-hand-o-right"></i></a></div>
+						<div class="text-center"><a class="btn btn-primary btn-lg" href="https://github.com/zzzprojects/Eval-Expression.NET" target="_blank" role="button">Learn More&nbsp;<i class="fa fa-hand-o-right"></i></a></div>
 					</div>
 					<div class="col-lg-6">
 						<!-- anchor !-->
@@ -127,7 +115,7 @@ BEGIN
 END
 {% endhighlight %}
 						</div>
-						<div class="text-center"><a class="btn btn-primary btn-lg" href="https://github.com/zzzprojects/Eval-SQL.NET" role="button">Learn More&nbsp;<i class="fa fa-hand-o-right"></i></a></div>
+						<div class="text-center"><a class="btn btn-primary btn-lg" href="https://github.com/zzzprojects/Eval-SQL.NET" target="_blank"  role="button">Learn More&nbsp;<i class="fa fa-hand-o-right"></i></a></div>
 					</div>
 				</div>
 			</div>
@@ -144,10 +132,7 @@ END
 						<h2>Pricing</h2>
 						<hr class="m-y-md" />
 						<p>Become a <span class="text-bold text-green">PRO</span> now and start saving time and money!</p>
-						<p>Thousands of <span class="text-bold">development hours</span> and thousands of <span class="text-bold">unit tests</span> to make Eval Expression.NET the best and most robust C# expression evaluator.</p>
-						<p>
-							PRO License starting at <span class="text-bold text-green">ONLY $299</span>
-						</p>
+						<p>Thousands of <span class="text-bold">development hours</span> and thousands of <span class="text-bold">unit tests</span> to make Compiler Expression.NET the best and most robust C# expression evaluator.</p>
 						<hr class="m-y-md" />
 						<p>With the free version comes a month long trial of the pro license to let you evaluate all its functonalities without limits.</p>
 												
@@ -184,45 +169,8 @@ END
 								</tr>
 							</tbody>
 						</table>
-						
-						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" onsubmit="return purchase_validate()">
-							<input type="hidden" name="cmd" value="_s-xclick">
-							<input type="hidden" name="hosted_button_id" value="PW79CTHBQFBZC">
-							<input type="hidden" name="currency_code" value="USD">
-							<fieldset class="form-group">
-								<input type="hidden" name="on0" value="Seats">
-								<select name="os0" class="form-control">
-									<option value="1 seat">Eval Expression.NET $299 (1 seat)</option>
-									<option value="2-4 seats">Eval Expression.NET $449 (2-4 seats)</option>
-									<option value="5-9 seats">Eval Expression.NET $599 (5-9 seats)</option>
-									<option value="10-14 seats">Eval Expression.NET $749 (10-14 seats)</option>
-									<option value="15-19 seats">Eval Expression.NET $899 (15-19 seats)</option>
-								</select> 
-							</fieldset>
-							<div class="checkbox">
-								<label>
-									<input id="agree_agreement" type="checkbox">I have read and agree to the <a href="http://www.zzzprojects.com/license-agreement/" target="_blank">License Agreement</a>.
-								</label>
-							</div>
-							<button type="submit" class="btn btn-success btn-lg"><span><i class="fa fa-shopping-cart"></i>&nbsp;<span>BUY NOW</span></span></button>
-						</form>					
-					</div>
-				</div>
-			</div>
-			
-			<!-- validation !-->
-			<div id="error_validation" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal_agreement" aria-hidden="true">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h4 class="modal-title" id="modal_agreement">License Agreement</h4>
-						</div>
-						<div class="modal-body bg-danger">
-							You must read and agree to the License Agreement.
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						</div>
+						<p class="text-center"><a class="btn btn-primary btn-lg" href="http://eval-expression.net/#pro" target="_blank"  role="button">Buy Eval Expression.NET&nbsp;<i class="fa fa-hand-o-right"></i></a></p>
+						<p class="text-center"><a class="btn btn-primary btn-lg" href="http://eval-sql.net/#pro" target="_blank"  role="button">Buy Eval SQL.NET&nbsp;<i class="fa fa-hand-o-right"></i></a></p>
 					</div>
 				</div>
 			</div>
@@ -636,5 +584,20 @@ footer a:hover {
 footer .social a {
 	font-size: 24px;
 	padding: 0px 10px;
+}
+</style>
+
+<style>
+header .who-use {
+	padding-top: 60px;
+}
+header .who-use a {
+	color: #f1f1f1;
+}
+#feature .block-code {
+	min-height: 350px;
+}
+#pricing .btn {
+	min-width: 300px;
 }
 </style>
