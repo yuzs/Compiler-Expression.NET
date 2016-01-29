@@ -554,7 +554,7 @@ header .card .card-code .highlight pre {
 #product a {
 	color: #999;
 	font-size: 14px;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 }
 #product a:hover {
 	color: #fefefe;
