@@ -247,15 +247,15 @@ END
 					<div class="col-lg-3">
 						<h3>Bulk Operations</h3>
 						<ul>
-							<li><a href="http://www.zzzprojects.com/products/dotnet-development/entity-framework-extensions/" target="_blank">.NET Entity Framework Plus</a></li>
+							<li><a href="http://www.zzzprojects.com/products/dotnet-development/entity-framework-extensions/" target="_blank">Entity Framework Plus</a></li>
 							<li><a href="http://www.zzzprojects.com/products/dotnet-development/bulk-operations/" target="_blank">.NET Bulk Operations</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-3">
 						<h3>Expression Evaluator</h3>
 						<ul>
-							<li><a href="http://eval-expression.net/" target="_blank">Eval Expression.NET</a></li>
 							<li><a href="http://eval-sql.net/" target="_blank">Eval SQL.NET</a></li>
+							<li><a href="http://eval-expression.net/" target="_blank">Eval Expression.NET</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-3">
