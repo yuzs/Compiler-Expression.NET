@@ -202,10 +202,10 @@ END
 							<div class="card-block">
 								<h4 class="card-title">Contact Us</h4>
 							</div>
-							<a href="mailto:sales@zzzprojects.com"><i class="fa fa-users fa-5x"></i></a>
+							<a href="mailto:info@zzzprojects.com"><i class="fa fa-users fa-5x"></i></a>
 							<div class="card-block">
 								<p class="card-text">Email our team for any type of questions. We love to hear from you!</p>
-								<a href="mailto:sales@zzzprojects.com">sales@zzzprojects.com</a>
+								<a href="mailto:info@zzzprojects.com">info@zzzprojects.com</a>
 							</div>
 						</div>
 					</div>
@@ -240,14 +240,21 @@ END
 		</div>
 		
 		
-		<!-- other product !-->
+			<!-- other product !-->
 		<div id="product">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3">
+						<h3>Entity Framework</h3>
+						<ul>
+							<li><a href="http://www.zzzprojects.com/products/dotnet-development/entity-framework-extensions/" target="_blank">Entity Framework Extensions</a></li>
+							<li><a href="https://github.com/zzzprojects/EntityFramework-Plus" target="_blank">Entity Framework Plus (EF+)</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
 						<h3>Bulk Operations</h3>
 						<ul>
-							<li><a href="http://www.zzzprojects.com/products/dotnet-development/entity-framework-extensions/" target="_blank">Entity Framework Plus</a></li>
+							<li><a href="http://www.zzzprojects.com/products/dotnet-development/entity-framework-extensions/" target="_blank">.NET Entity Framework Extensions</a></li>
 							<li><a href="http://www.zzzprojects.com/products/dotnet-development/bulk-operations/" target="_blank">.NET Bulk Operations</a></li>
 						</ul>
 					</div>
@@ -262,7 +269,7 @@ END
 						<h3>Others</h3>
 						<ul>
 							<li><a href="http://www.zzzprojects.com/products/dotnet-development/extension-methods/" target="_blank">Extension Methods</a></li>
-							<li><a href="http://compiler-expression.net/" target="_blank">Compiler Expression.NET</a></li>
+							<li><a href="https://github.com/zzzprojects/LINQ-Async" target="_blank">LINQ Async</a></li>
 						</ul>
 					</div>
 				</div>
