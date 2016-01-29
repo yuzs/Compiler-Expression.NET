@@ -55,7 +55,7 @@ layout: post
 					</div>
 					<div class="col-lg-6">
 						<div class="card who-use">
-							<h3>Who use this?:</h3>
+							<h3>Who is using this?</h3>
 							<ul>
 								<li><a href="https://github.com/zzzprojects/Eval-Expression.NET" target="_blank">Eval Expression.NET</a></li>
 								<li><a href="https://github.com/zzzprojects/Eval-SQL.NET" target="_blank">Eval SQL.NET</a></li>
