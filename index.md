@@ -542,7 +542,6 @@ header .card .card-code .highlight pre {
 }
 #support i {
 	color: #0275d8;
-	padding-bottom: 20px;
 }
 
 /* product */
