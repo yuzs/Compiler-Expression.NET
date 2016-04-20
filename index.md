@@ -247,15 +247,15 @@ END
 					<div class="col-lg-3">
 						<h3>Entity Framework</h3>
 						<ul>
-							<li><a href="http://www.zzzprojects.com/products/dotnet-development/entity-framework-extensions/" target="_blank">Entity Framework Extensions</a></li>
-							<li><a href="https://github.com/zzzprojects/EntityFramework-Plus" target="_blank">Entity Framework Plus (EF+)</a></li>
+							<li><a href="http://entityframework-extensions.net/" target="_blank">Entity Framework Extensions</a></li>
+							<li><a href="http://entityframework-plus.net/" target="_blank">Entity Framework Plus (EF+)</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-3">
 						<h3>Bulk Operations</h3>
 						<ul>
-							<li><a href="http://www.zzzprojects.com/products/dotnet-development/entity-framework-extensions/" target="_blank">.NET Entity Framework Extensions</a></li>
-							<li><a href="http://www.zzzprojects.com/products/dotnet-development/bulk-operations/" target="_blank">.NET Bulk Operations</a></li>
+							<li><a href="http://bulk-operations.net/" target="_blank">Bulk Operations</a></li>
+							<li><a href="http://dapper-plus.net/" target="_blank">Dapper Plus</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-3">
@@ -268,7 +268,7 @@ END
 					<div class="col-lg-3">
 						<h3>Others</h3>
 						<ul>
-							<li><a href="http://www.zzzprojects.com/products/dotnet-development/extension-methods/" target="_blank">Extension Methods</a></li>
+							<li><a href="https://github.com/zzzprojects/Z.ExtensionMethods" target="_blank">Extension Methods</a></li>
 							<li><a href="https://github.com/zzzprojects/LINQ-Async" target="_blank">LINQ Async</a></li>
 						</ul>
 					</div>
