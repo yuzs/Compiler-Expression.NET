@@ -192,7 +192,7 @@ layout: post
 								<h2>C# Code Analysis and Code Compiler for Eval-Expression.NET and Eval-SQL.NET</h2>
 								<hr class="m-y-md" />
 								<div class="lead">
-									<a href="https://www.nuget.org/packages/Z.Expressions.Compiler/" target="_blank" class="btn btn-success btn-lg btn-left" role="button"><span><i class="fa fa-cloud-download fa-2x"></i>&nbsp;<span>Download</span></span></a>
+									<a href="https://www.nuget.org/packages/Z.Expressions.Eval/" target="_blank" class="btn btn-success btn-lg btn-left" role="button"><span><i class="fa fa-cloud-download fa-2x"></i>&nbsp;<span>Download</span></span></a>
 									<br />		
 									<div class="text-muted">* PRO Version unlocked for the current month</div>
 								</div>
