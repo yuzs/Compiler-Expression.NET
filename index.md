@@ -119,7 +119,7 @@ layout: post
 								<a class="nav-link" href="#pro">PRO Version</a>
 							</li>
 							<li class="nav-item">
-								<a href="https://github.com/zzzprojects/Eval-SQL.NET/releases" target="_blank" class="btn btn-success" role="button" onclick="ga('send', 'event', { eventAction: 'download'});"><span><i class="fa fa-cloud-download"></i>&nbsp;<span>Download</span></span></a>
+								<a href="https://www.nuget.org/packages/Z.Expressions.Eval/" target="_blank" class="btn btn-success" role="button" onclick="ga('send', 'event', { eventAction: 'download'});"><span><i class="fa fa-cloud-download"></i>&nbsp;<span>Download</span></span></a>
 							</li>
 						</ul>
 					</div>
