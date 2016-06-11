@@ -12,7 +12,7 @@ layout: post
 		<!-- seo !-->
 		<meta name="description" content="C# Code Analysis and Code Compiler for Eval-Expression.NET and Eval-SQL.NET">
 		<meta name="keywords" content="Eval, Evaluate, Compile, Execute, Expression, Dynamic, Runtime, .NET, dotnet, C#, CSharp, VB">
-		<title>C# Code Compiler | Code Analysis and Code Compiler for Eval-Expression.NET and Eval-SQL.NET</title>
+		<title>C# Compiler | C# Code Analysis and Code Compiler for Eval-Expression.NET and Eval-SQL.NET</title>
 		
 		<!-- icon/css !-->
 		<link rel="icon" type="image/png" href="http://entityframework-plus.net/images/logo.png">
@@ -101,7 +101,7 @@ layout: post
 						<!-- navbar-bar-header !-->
 						<ul class="nav navbar-nav navbar-nav-header">
 							<li class="nav-item">
-								<h1>Compiler Expression.NET</h3>
+								<h1>Compiler Expression.NET
 								<small>Compiler for Eval-Expression.NET & Eval-SQL.NET</small>
 								</h1>
 							</li>
